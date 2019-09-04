@@ -66,7 +66,7 @@ table {
      header{background-color:red;}
      footer{ background-color:hotpink;}
      main{background-color:ivory;
-     height:500px;
+     
      width: 500px;
      margin-right: auto;
      margin-left: auto;
@@ -84,11 +84,20 @@ table {
    left: 100px;
    }
 
-   body {font-size: 100px
-   }
+   p {color:white}
 
-h1 {font-size: 24px
-}
+   #erik{ color:green;}
+   #greg{color: red}
+   #john{color: black}
+   .cool {font-style:italic;}
+   .great {font-style: helvetica}
+   .faded {opacity: .5;}
+   main h1 {font-size:40px;}
+   a {font-size:40px;}
+   main p a{}
+   p a{font-size: 40px;}
+   main a{font-size: 40px;}
+   
 
      </style>
 
@@ -111,13 +120,17 @@ h1 {font-size: 24px
 
      <main>
           <!--Span element, used to make individual letters selectable.-->
-          <h1>Daniel's <span style="font-size: 72px;">P</span>ortfolio</h1>
-     
+          <h1 class="faded">Daniel's <span style="font-size: 72px;">P</span>ortfolio</h1>
+     <p id="erik" class="cool">the ocean is a vary big and blue place.</p>
+     <p id="greg" class="great">fire is<a href="https://en.wikipedia.org/wiki/Red">red</a> and dangerous.</p>
+     <p id="erik" class="cool">lightning is yellow and shocking</p>
+     <p id="john" class="great">trees are green and peaceful.</p>
           <div></div>
      </main>
 
      
      <footer>
+          <h1>Thanks for visiting my website!</h1>
           <p>Copyright & copy; 2019 Daniel Ibanez</p>
      </footer>
 
