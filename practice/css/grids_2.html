@@ -13,7 +13,7 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr;
 border: 1px solid red;
-grid-gap: 2px;
+grid-gap: 10px;
         }
 
         #box1,#box2,#box3{
@@ -24,18 +24,22 @@ grid-gap: 2px;
         #box1 {
 grid-row-start: 1;
 grid-row-end: 3;
+grid-column-start:1;
+            grid-column-end:3;
         }
 
         #box2 {
-            grid-row-start: 2;
-            grid-row-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start:3;
+            grid-column-end:4;
         }
 
         #box3 {
-            grid-row-start: 3;
-            grid-row-end: 4;
-            grid-column-start: 4;
-            grid-column-end: 5;
+            grid-row-start: 3px;
+            grid-row-end:4px ;
+            grid-column-start: 1px;
+            grid-column-end: 4px;
         }
     </style>
 </head>
