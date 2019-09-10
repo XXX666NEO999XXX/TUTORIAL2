@@ -1,0 +1,7 @@
+For my project, I would like to use the colors blue, white and black for the main colors of my webpage.
+I would like to use blue for the main parts of my webpage such as the cover body.
+For the title I would like to use a light, cyan blue color as it would accentuate the title on a black header
+I would also like to use white on the background as well as on any pop-ups that may be on the webpage
+for the white popups I would like to outline them in gray, while the body would be outlined in a solid blue.
+The text would be black for most of the webpage, but the links would be colored in purple.
+I would also like to add red into it, i will find a way to add hints of it.
