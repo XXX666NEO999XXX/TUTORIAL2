@@ -1,0 +1,17 @@
+#back {
+    background-color:;
+}
+#head {
+    background-color: black;
+    height: 300px;
+}
+
+#main{
+    background-color: blue;
+    height: 500px;
+}
+
+#foot{
+    background-color: blue;
+    height: 200px;
+}
