@@ -1,17 +1,19 @@
 #back {
     background-color:;
 }
-#head {
-    background-color: black;
-    height: 300px;
+
+
+p{color: turquoise;
+font-size: 67px;
+text-align: center;
+padding-top: 115px;
+
 }
 
-#main{
-    background-color: blue;
-    height: 500px;
-}
+header{ background-color: black}
 
-#foot{
-    background-color: blue;
-    height: 200px;
-}
+main{ background-color: blue;}
+
+footer{ background-color:blue;}
+
+#stars { height: 100px;}
