@@ -157,7 +157,7 @@ if (true) {console.log("this is true!");}
 1>10;//false
 1<10;//true
 100!=50;//true
-50 !50;//false
+50!=50;//false
 !false;//true
 !true;//false
 true!=true;//false
@@ -166,5 +166,6 @@ false==false;//true
 var age =100029;
 
 if(age>=21){
-    console.log(congratz, you can now drink Soda.);
+    console.log("Congratz, you can now drink Soda.");
 }
+
