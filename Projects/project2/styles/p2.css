@@ -3,7 +3,9 @@
 }
 
 
-p{color: turquoise;
+p #name {
+    position: absolute;
+    color: turquoise;
 font-size: 67px;
 text-align: center;
 padding-top: 115px;
