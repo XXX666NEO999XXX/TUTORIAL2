@@ -1,17 +1,24 @@
-#back {
-    background-color:;
-}
 
+#container{
 
-p #name {
-    position: absolute;
-    color: turquoise;
-font-size: 67px;
+position: relative;
 text-align: center;
-padding-top: 115px;
+color: turquoise
+}
+
+
+#htext{
+
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 67px;
 
 }
 
+
+ 
 header{ background-color: black}
 
 main{ background-color: blue;}
