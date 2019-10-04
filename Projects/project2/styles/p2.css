@@ -1,28 +1,31 @@
 
+
+
+
 #container{
 
-position: relative;
-text-align: center;
-color: turquoise
-}
-
-
-#htext{
-
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 67px;
-
-}
-
-
- 
-header{ background-color: black}
-
-main{ background-color: blue;}
-
-footer{ background-color:blue;}
-
-#stars { height: 100px;}
+    position: relative;
+    text-align: center;
+    color: turquoise
+    }
+    
+    
+    #htext{
+    
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 67px;
+    
+    }
+    
+    
+     
+    header{ background-color: black; padding-bottom: 0;}
+    
+    main{ background-color: blue; padding-bottom: 400px;}
+    
+    footer{ background-color:blue;}
+    
+   
