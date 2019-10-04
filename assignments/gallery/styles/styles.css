@@ -111,3 +111,30 @@ footer {
 }
 
 /*Footer End*/
+
+
+
+
+
+/*mmmmm*/
+
+main{ background-color: blue;
+    position: absolute;}
+    
+    footer{ background-color:blue;
+    position: absolute;}
+    
+    <div><img src="images/connections.jpg"></div>
+    <div> <img src="images/networking.jpg"></div>
+    <div> <img src="images/phone.jpg"></div>
+    <div> <img src="images/worldwide.jpg"></div>
+    
+            <div>
+                <b>Home</b>
+                <a href="about.html" >About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact Me</a>
+                <a href="resume.pdf">My Resume</a>
+            </div>
+            
+            <img  src="images/stars2.jpg" style="height: 250px; width: 100%">
