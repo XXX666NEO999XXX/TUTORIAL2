@@ -96,6 +96,23 @@
         border:"5px solid black",
         });
 
+        //END OF ADDING HTML AND CSS
+
+        //START OF BUTTON EVENTS
+
+        $("body").prepend("<button id='createText'>DO NOT PRESS</button>")
+        $("#createText").css({
+            "background-color":"red",
+            border:"1px solid black",
+        })
+
+        $("#createText").click(function(){
+           $("body").prepend("<p>BOOM</p>");
+           });
+
+          
+        
+
       });
       
     </script>
